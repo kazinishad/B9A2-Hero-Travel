@@ -100,7 +100,7 @@
 /*scndpage section start*/
 #scndpage{
     width: 80%;
-    height: 400px;
+    height: 460px;
     margin: 0px 130px;
   
 }
@@ -136,6 +136,101 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+
+/*thrdpage section start*/
+#thrdpage{
+    width: 80%;
+    margin: 0px auto;
+}
+.thrdpagetext{
+    width: 60%;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+.thrdpagetext1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.thrdpagep{
+    margin-top: -60px;
+}
+.maldiv{
+    background-image: url(Rectangle\ 5.png);
+    background-position: center;
+    grid-area: maldiv;
+    height: 200px;
+    border-radius: 20px;
+}
+.indonesia{
+    background-image: url(Rectangle\ 8.png);
+    background-position: center;
+    grid-area: indonesia;
+    height: 200px;
+    border-radius: 20px;
+}
+.srilanka{
+    background-image: url(Rectangle\ 6.png);
+    background-position: center;
+    grid-area: srilanka;
+    height: 200px;
+    border-radius: 20px;
+}
+.northamerica{
+    background-image: url(Rectangle\ 7.png);
+    background-position: center;
+    grid-area: america;
+    height: 200px;
+    border-radius: 20px;
+}
+.kashmir{
+    background-image: url(Rectangle\ 9.png);
+    background-position: center;
+    grid-area: kashmir;
+    height: 200px;
+    border-radius: 20px;
+}
+.bangladesh{
+    background-image: url(Rectangle\ 11.png);
+    background-position: center;
+    grid-area: bangladesh;
+    height: 200px;
+    border-radius: 20px;
+}
+.bandarban{
+    background-image: url(Rectangle\ 10.png);
+    background-position: center;
+    grid-area: bandarban;
+    height: 200px;
+    border-radius: 20px;
+}
+.thrdpageimg{
+    display: grid;
+    gap: 40px;
+    grid-template-areas: 
+    "maldiv    maldiv  indonesia   indonesia"
+    "srilanka   america america kashmir"
+    " bangladesh bangladesh bandarban bandarban"
+    ;
+   text-align: center;
+  
+}
+.thrdpageimg h5{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 80px;
+
 }
 
 
@@ -223,10 +318,31 @@
         width: 100%;
     }
     .scndpageall .scndpageimg1{
-        width: 380px;
+        width: 450px;
         height: 350px;
         margin-top: 13px;
     }
+    .thrdpagetext{
+        margin-left: 70px;
+        margin-top: 360px;
+    }
+    .thrdpageimg{
+        width: 440px;
+        margin-left: -30px;
+        gap: 15px;
+        grid-template-areas: 
+        "maldiv"
+        "indonesia" 
+        "srilanka"
+        "america"
+        "kashmir"
+        " bangladesh" 
+        " bandarban"
+        ;
+       
+      
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
