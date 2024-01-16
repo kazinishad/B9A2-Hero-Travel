@@ -550,8 +550,10 @@
     .sixpageall{
         display: block;
         gap: 10px;
+        margin-top: 200px;
     }
     .newslatter{
+     
         width: 330px;
         height: 400px;
         padding: 20px;
