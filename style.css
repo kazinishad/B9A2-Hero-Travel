@@ -183,28 +183,27 @@
         line-height: 10px;
     }
     .btnsection{
-        width: 60%;
+        width: 80%;
         height: 60%;
         background-color: #ffffff67;
         margin: 0px auto;
         border-radius: 8px;
       
     }
+    .btnsectionall{
+       margin-left: 60px;
+    }
     .btnprimary{
-        width: 80%;
-       
+        width: 70%;
     }
-    .btnprimaryinput{
-       margin-left: -7px;
-        width: 80%px;
-       
+    .btnprimaryf{
+        width: 70%;
     }
-    #scndpage{
-        width: 80%;
-        height: 400px;
+    .btnprimaryinput {
+        width: 65%;
+    }
+    #scndpage{    
         margin: 0px 13px;
-        
-      
     }
     .scndpageall{
         display: block;
@@ -221,10 +220,10 @@
         line-height: 26px;
     }
     .scndpagetext{
-        width: 90%;
+        width: 100%;
     }
     .scndpageall .scndpageimg1{
-        width: 390px;
+        width: 380px;
         height: 350px;
         margin-top: 13px;
     }
