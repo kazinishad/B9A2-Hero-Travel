@@ -315,6 +315,97 @@
     font-weight: 400;
     line-height: 26px;
 }
+
+/*sixpage section start*/
+#sixpage{
+   
+    margin: 20px 130px;
+}
+.sixpageall{
+    display: flex;
+    gap: 30px;
+}
+.newslatter{
+    height: 400px;
+    padding: 20px;
+    border: 3px solid #FF5400;
+    border-radius: 10px;
+}
+.sixpagetitle{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.sixpagep{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sixbtn{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 13px;
+}
+.sixbtn1{
+    margin-top: 13px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.off{
+    background-color: #FF5400;
+    padding: 20px;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+}
+.sixpageimg{
+    position: relative;
+}
+.off{
+    position:absolute;
+    bottom: 110px;
+    right: 3px;
+    transform: rotate(-38deg);
+}
+.discount{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.discount2{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+
+
 @media screen and (max-width:576px) {
     #navbar-section{
         padding: 0px;
@@ -451,6 +542,74 @@
        
         font-size: 30px;
        
+    }
+    #sixpage{
+        margin-top: 300px;
+        margin-left: 10px;
+    }
+    .sixpageall{
+        display: block;
+        gap: 10px;
+    }
+    .newslatter{
+        width: 330px;
+        height: 400px;
+        padding: 20px;
+        border: 3px solid #FF5400;
+        border-radius: 10px;
+    }
+    .sixbtn{
+        width: 320px;
+        height: 52px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        border: none;
+        margin-top: 13px;
+    }
+    .sixbtn1{
+        margin-top: 13px;
+        width: 320px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+        border: none;
+        color: #FFF;
+        font-size: 20px;
+    }
+    .sixpageimg{
+       margin-top: 30px;
+    }
+    .sixpageimg1{
+        width: 375px;
+    }
+    .off{
+        background-color: #FF5400;
+        padding: 2px;
+        height: 80px;
+        width: 200px;
+        border-radius: 10px;
+        color: #FFF;
+        text-align: center;
+        bottom: 56px;
+      left: 170px;
+
+    }
+    .discount{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .discount2{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
     }
 }
 
