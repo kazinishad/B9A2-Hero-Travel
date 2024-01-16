@@ -233,7 +233,88 @@
 
 }
 
+/*fourpage section start*/
+#fourpage{
+    margin: 0px 130px;
+}
 
+.fourpagetext{
+    text-align: center;
+    width: 60%;
+    margin-left: 200px;
+}
+.fourpagetext1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.fourpagetextp{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card1{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d6b06934;
+}
+.card1 .card1img{
+    width: 70px;
+}
+.card1 .cardtitle{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.card1 .cardtext{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.fourpagediv{
+    display: flex;
+    gap: 30px;
+}
+.card2{
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d6b06934;
+}
+.card2 .card1img{
+    width: 70px;
+}
+.card2 .cardtitle{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.card2 .cardtext{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 @media screen and (max-width:576px) {
     #navbar-section{
         padding: 0px;
@@ -322,6 +403,7 @@
         height: 350px;
         margin-top: 13px;
     }
+  
     .thrdpagetext{
         margin-left: 70px;
         margin-top: 500px;
@@ -342,7 +424,34 @@
        
       
     }
-
+    #fourpage{
+        margin: 0px 13px;
+    }
+    
+    .fourpagetext{
+        text-align: center;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .fourpagediv{
+        display: block;
+        gap: 20px;
+    }
+    .card1{
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    .card2{
+        width: 90%;
+        padding: 10px;
+       
+    }
+    .fourpagetext1{
+       
+        font-size: 30px;
+       
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
