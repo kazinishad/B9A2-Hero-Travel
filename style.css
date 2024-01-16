@@ -61,7 +61,7 @@
   
 }
 .btnsectionall{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .btnimg{
     width: 15px;
@@ -95,6 +95,47 @@
     color: #FFF;
   
     
+}
+
+/*scndpage section start*/
+#scndpage{
+    width: 80%;
+    height: 400px;
+    margin: 0px 130px;
+  
+}
+.scndpageall{
+    display: flex;
+    margin-top: 60px;
+    gap: 30px;
+}
+.scndpageall .scndpageimg1{
+    width: 500px;
+    height: 450px;
+}
+.scndpagetitle{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.scndpagep{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.scndpageall ul li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 
@@ -158,7 +199,35 @@
         width: 80%px;
        
     }
-
+    #scndpage{
+        width: 80%;
+        height: 400px;
+        margin: 0px 13px;
+        
+      
+    }
+    .scndpageall{
+        display: block;
+        margin-top: 10px;
+        gap: 20px;
+    }
+    .scndpagetitle{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .scndpagep{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .scndpagetext{
+        width: 90%;
+    }
+    .scndpageall .scndpageimg1{
+        width: 300px;
+        height: 350px;
+        margin-top: 13px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
