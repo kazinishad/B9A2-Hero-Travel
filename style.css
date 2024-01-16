@@ -318,16 +318,16 @@
         width: 100%;
     }
     .scndpageall .scndpageimg1{
-        width: 450px;
+        width: 384px;
         height: 350px;
         margin-top: 13px;
     }
     .thrdpagetext{
         margin-left: 70px;
-        margin-top: 360px;
+        margin-top: 400px;
     }
     .thrdpageimg{
-        width: 440px;
+        width: 384px;
         margin-left: -30px;
         gap: 15px;
         grid-template-areas: 
